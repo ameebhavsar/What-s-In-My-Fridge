@@ -7,7 +7,7 @@ apiKey = "8829ae0dd51a4ad693495a811663a202"
 url_one = "https://api.spoonacular.com/recipes/findByIngredients"
 url_two = "https://api.spoonacular.com/food/ingredients/substitutes"
 
-
+print("hello")
 # ONE: Fetch recipes based on available ingredients
 available = input("What Ingredients do you have in your fridge? (list with commas separating ingredients)")
 params = {
